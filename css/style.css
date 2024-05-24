@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.fixed-top {
+    background-color: #2d6760;
+}
+.bg-img {
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(rgba(112, 185, 176, 0.85), rgba(112, 185, 176, 0.85)), url(../img/hero-background.jpg) fixed center center;
+}
+.hero{
+    position: absolute;
+    top: 40%;
+}
+.bg-ser {
+    background-color: #f2f9f8;
+}
+.action-bg {
+    background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url(../img/call-to-action-bg.jpg) fixed center center;
+}
+.footer{
+    background-color: #073839;
+}
+.card .col-4{
+    background-color: #f2f9f8;
+}
+.card i{
+    color: #70b9b0;
+}
+.card .col-4:hover h5{
+    color: #70b9b0;
+}
+.btn:hover .btn{
+    color: white;
+    background: #70b9b0;
+}
+.team-card{
+    gap: 10px;
+}
+.team-card .social-icon a{
+    color: #70b9b0;
+}
+.con-icon a{
+    color: #70b9b0;
+}
+.col-3 i{
+    color: #70b9b0;
+}
+
+
+@media (min-width:577px) and (max-width:720px) {
+    .w-1170 {
+        width: 540px;
+    }
+}
+@media (max-width:576px) {
+    .w-1170 {
+        width: auto;
+    }
+    .col-9 .nav {
+        display: none;
+    }
+    .about {
+       width: 100%;
+    }
+}
